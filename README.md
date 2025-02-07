@@ -10,11 +10,6 @@
 
   gtag('config', 'G-QDD42BLBF5');
 </script>
-<style>
-  h1:first-of-type, p:first-of-type {
-    display: none !important;
-  }
-</style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>worthwiz</title>
     <style>
@@ -174,5 +169,16 @@
             nextButton.disabled = true;
         }
     </script>
+    <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Find the unwanted h1 and p elements
+    const unwantedH1 = document.querySelector("h1");
+    const unwantedP = document.querySelector("p");
+
+    // Remove them if they exist
+    if (unwantedH1) unwantedH1.remove();
+    if (unwantedP) unwantedP.remove();
+  });
+</script>
 </body>
 </html>
