@@ -11,7 +11,7 @@
   gtag('config', 'G-QDD42BLBF5');
 </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Startup Idea Assessment</title>
+    <title>worthwiz</title>
     <style>
         body { 
             font-family: Arial, sans-serif; 
