@@ -171,13 +171,19 @@
     </script>
     <script>
   document.addEventListener("DOMContentLoaded", () => {
-    // Find the unwanted h1 and p elements
-    const unwantedH1 = document.querySelector("h1");
-    const unwantedP = document.querySelector("p");
+    // Get all h1 and p elements
+    const allH1 = document.querySelectorAll("h1");
+    const allP = document.querySelectorAll("p");
 
-    // Remove them if they exist
-    if (unwantedH1) unwantedH1.remove();
-    if (unwantedP) unwantedP.remove();
+    // Check and remove the first h1 (which is likely the unwanted one)
+    if (allH1.length > 0) {
+      allH1[0].remove();
+    }
+
+    // Check and remove the first p (which might be the unwanted one)
+    if (allP.length > 0) {
+      allP[0].remove();
+    }
   });
 </script>
 </body>
