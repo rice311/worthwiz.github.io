@@ -10,7 +10,6 @@
 
   gtag('config', 'G-QDD42BLBF5');
 </script>
-<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Startup Idea Assessment</title>
     <style>
