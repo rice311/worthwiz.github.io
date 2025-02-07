@@ -11,10 +11,10 @@
   gtag('config', 'G-QDD42BLBF5');
 </script>
 <style>
-  h1, p {
+  h1:first-of-type, p:first-of-type {
     display: none !important;
   }
-</style
+</style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>worthwiz</title>
     <style>
