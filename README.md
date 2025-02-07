@@ -60,6 +60,11 @@
         #restart:hover {
             background: #d84315;
         }
+        .question p {
+    font-size: 28px; /* Adjust this value to make the text larger */
+    font-weight: bold; /* Optional: Makes the text bold */
+    margin-bottom: 20px; /* Optional: Adds space below the question */
+}
     </style>
 </head>
 <body>
