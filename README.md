@@ -10,8 +10,6 @@
 
   gtag('config', 'G-QDD42BLBF5');
 </script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7041529138899532"
-     crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>worthwiz</title>
     <style>
