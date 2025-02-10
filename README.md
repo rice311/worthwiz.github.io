@@ -149,8 +149,8 @@
             let finalScore = (score / 50) * 10; // Scale to 10
 
             let resultText = `Your idea's score is:    ${finalScore.toFixed(1)} / 10`;
-            let feedbackText = finalScore >= 9 ? "🦄 UNICORN ALERT! Your idea is insane! Investors will chase you." :
-                               finalScore >= 7 ? "💵 Solid Potential - Your idea is great, refine it for maximum impact." :
+            let feedbackText = finalScore >= 9 ? "🦄 UNICORN ALERT! Your idea is insane! go for it!." :
+                               finalScore >= 7 ? "💵 Solid Potential - Your idea is great, but you still need to refine it for maximum impact." :
                                finalScore >= 5 ? "💫 Needs More - Your idea has potential, but it's not quite there yet." : 
                                "🚨 Rethink - This idea may not be viable. Back to the drawing board.";
 
